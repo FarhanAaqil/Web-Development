@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Multiplayer Drawing App</title>
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <h1>Advanced Multiplayer Drawing App</h1>
+      <div class="toolbar">
+        <button id="undoBtn">Undo</button>
+        <button id="redoBtn">Redo</button>
+        <input type="color" id="colorPicker" value="#000000" />
+        <label for="brushSize">Brush Size:</label>
+        <input type="range" id="brushSize" min="1" max="30" value="5" />
+        <button id="eraserBtn">Eraser</button>
+        <button id="exportBtn">Export as PNG</button>
+        <button id="nextPageBtn">Next Page</button>
+        <button id="toggleThemeBtn">Toggle Theme</button>
+        <button id="toggleGridBtn">Toggle Grid</button>
+        <button id="bgColorBtn">Change Background</button>
+      </div>
+      <canvas id="drawingCanvas" width="800" height="600"></canvas>
+      <div class="user-info">Your User ID: <span id="userId"></span></div>
+    </div>
+    <!-- Link to custom JavaScript -->
+    <script src="app.js"></script>
+  </body>
+</html>

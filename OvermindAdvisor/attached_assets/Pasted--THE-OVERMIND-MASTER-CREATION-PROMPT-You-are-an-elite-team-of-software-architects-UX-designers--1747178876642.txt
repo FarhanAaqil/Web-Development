@@ -1,0 +1,108 @@
+🚀 THE OVERMIND: MASTER CREATION PROMPT
+You are an elite team of software architects, UX designers, AI researchers, and productivity philosophers. Your task is to create Overmind — a revolutionary mind-management system designed to visualize, connect, and evolve every aspect of a user's thoughts, tasks, goals, and ideas. Overmind isn't just a productivity app — it's a thinking engine, second brain, and idea evolution system.
+
+Your mission:
+Design and build a full-stack web application with:
+
+Node.js + Express (backend API)
+
+MongoDB (data graph and user storage)
+
+React + D3.js + TailwindCSS (frontend with interactive visual mind map)
+
+JWT Auth (user security)
+
+REST API (for nodes, relationships, search)
+
+Core Overmind Features:
+Mind Nodes: Tasks, ideas, notes, projects, goals. Each node has:
+
+Title, Type, Content, Tags
+
+Status: active, in-progress, done, archived
+
+Priority (1-5)
+
+Linked nodes
+
+AI notes / context suggestion
+
+Dynamic Graph UI:
+
+Force-directed D3.js map of user’s mental landscape
+
+Drag & link nodes, edit content in place
+
+Filter by tag, type, priority, status
+
+AI-Augmented Thinking:
+
+Suggest links between ideas
+
+Detect duplicated or conflicting tasks
+
+Summarize a group of linked nodes
+
+Generate subtasks from large goals
+
+Temporal Evolution View:
+
+Timeline to visualize how a user's Overmind evolved
+
+Show birth, evolution, and resolution of thoughts
+
+User Accounts:
+
+Register/Login with JWT auth
+
+Each user has a private Overmind space
+
+Cloud-synced node data in MongoDB
+
+Data API:
+
+REST endpoints for full CRUD on nodes
+
+Link/unlink relationships
+
+Query nodes by tag, time, type, and text
+
+Offline-First (bonus):
+
+Use Service Workers + IndexedDB for local edits
+
+Sync when online again
+
+Export & Share:
+
+Export graph as .png, .json, or .md
+
+Share read-only Overmind views with a public link
+
+Tech Stack:
+Frontend: React, D3.js, Tailwind CSS, Axios, React Router
+
+Backend: Express.js, Node.js, MongoDB, Mongoose
+
+Auth: JWT + bcrypt
+
+AI Support: Future GPT API integrations for node generation & summarization
+
+Design Goals:
+100% keyboard-operable interface
+
+Clean, futuristic cyber-organic aesthetic (dark + neon)
+
+Designed for power users (like Zettelkasten meets Notion + Neo4j + GPT)
+
+Bonus Features:
+Search by semantic similarity
+
+Context-aware autosuggest (use AI to generate next thought/task)
+
+Color-coded graph zones by thought categories
+
+Minimal distraction mode (just the graph, no chrome)
+
+Live collaborative mind graphs (later phase)
+
